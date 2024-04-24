@@ -1,0 +1,82 @@
+h2{
+    color: red;
+    text-align: center;
+}
+
+.kepala{
+    height: 200px;
+    margin: 20px 10px;
+    border-radius: 8px;
+}
+
+#menu{
+    background-color: rgb(24, 187, 236);
+    height: 50px;
+    margin: 20px 10px;
+    border-radius: 8px;
+    
+}
+
+#menu ul li{
+    float: left;
+    padding: 15px;
+    list-style: none;
+    text-transform:uppercase;
+}
+
+#menu ul li a {
+    display:block;
+    padding:0 20px;
+    text-decoration:none;
+    color:#2c2c2c;
+    font-family: sans-serif;
+    font-size:13px;
+    font-weight:400;
+    transition:all 0.3s ease-in-out;
+}
+
+#menu ul li a:hover,
+#menu ul li a.hoverover {
+    cursor: pointer;
+    color:red;
+}
+
+.konten{
+    overflow:hidden;
+    width: 100%;
+}
+
+.sidebar{
+    background-color: rgb(231, 237, 245);
+    width: 20%;
+    float: left;
+    height: 800px;
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.berita{
+    background-color: rgb(231, 237, 245);
+    height: 800px;   
+    margin-right: 10px;
+    border-radius: 8px;
+    width: 70%;
+    float: right;
+    padding: 20px;
+}
+
+.berita img{
+    float:left;
+    margin-right:10px;
+    width:200px;
+    height:165px
+}
+
+.kaki{
+    background-color: rgb(24, 187, 236);
+    height: 150px;
+    margin: 20px 10px;
+    border-radius: 8px;
+    padding: 20px;
+}
